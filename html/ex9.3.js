@@ -13,16 +13,16 @@ map.addControl(new BMap.NavigationControl());
 map.addControl(new BMap.MapTypeControl());
 
 
-var marker = new BMap.Marker(point); // 创建标注    
+/*var marker = new BMap.Marker(point); // 创建标注    
 map.addOverlay(marker); //添加覆盖物*/
 
-
+/*
 marker.enableDragging(); //开启拖拽功能
 marker.addEventListener("dragend", function(e) {
 
     alert("当前位置：" + e.point.lng + ", " + e.point.lat);
 });
-
+*/
 
 var school_building = [
     [120.014346, 30.295157, "体育场", "img/体育场.jpg"],

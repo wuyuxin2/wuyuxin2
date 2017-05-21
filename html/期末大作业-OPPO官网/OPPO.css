@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-18 15:33:58
+ * @version $Id$
+ */
+#ui-head{
+	width:100%;
+	height:25px;
+	line-height:25px;
+	background-color:rgb(0,155,114);
+	text-align:center;
+}
+.head{
+	color:white;
+	float:right;
+	width:56px;
+	height:25px;
+	line-height:25px;
+	border-left:1px solid white;
+	font-size:12px;
+	background-color:rgb(0,155,114);
+	
+}
+.head_login,
+.head_Global,
+.head_logout{
+	color:white;
+	background-color:rgb(0,155,114);
+	text-decoration:none;
+}
+.head_login :hover,
+.head_Global :hover,
+.head_logout :hover{
+	color:black;
+}
+#ui-theme{
+	width:100%;
+	height:45px;
+
+}
+.logo{
+	float:left;
+	margin-left:30%;
+}
+.items{
+	margin-right:20%;
+	height:45px;
+	line-height:45px;
+	float:right;
+	
+}
+.home_page,
+.product_page,
+.market_page,
+.exp_center_page,
+.server_page,
+.ColorOS,
+.community_page
+{
+	margin-right:10px;
+	color:gray;
+	font-size:12px;
+	text-decoration:none;
+}
+#ui-body{
+	width:100%;
+	height:400px;
+	
+	margin-bottom:10px;
+}
+.body_img{
+	width:100%;
+	height:100%;
+}
+#ui-more{
+	width:100%;
+	height:225px;
+	
+}
+.more_part1,
+.more_part2{
+	width:33%;
+	height:100%;
+	margin-right:5px;
+	float:left;
+}
+.more_part3{
+	width:33%;
+	height:100%;
+	
+	float:left;
+}
+.more_part_img{
+	width:100%;
+	height:100%;
+}
+#ui-server{
+	margin-top:40px;
+	width:100%;
+	height:170px;
+	
+	
+}
+.server_title{
+	margin-left:30%;
+	float:left;
+}
+.server_box{
+	margin-right:30%;
+	float:left;
+}
+.server_online_service{
+	width:100px;
+	height:20px;
+	text-align:center;
+	border:2px solid rgb(78,78,78);
+	border-radius:15px;
+}
+.online_service{
+	height:20px;
+	line-height:20px;
+	color:gray;
+	font-size:8px;
+	text-decoration:none;
+}
+/*
+.server_item1,
+.server_item2{
+	display:flex;
+	flex-direction:column;
+}*/
+.server_blank{
+	width:50px;
+}
+
+.server_td{
+	font-size:8px;
+	text-align:right;
+	float:right;
+}
+.server_type,
+.server_buy,
+.server_server,
+.server_about{
+	margin-right:40px;
+	margin-bottom:3px;
+	font-size:12px;
+	font-weight:bolder;
+	text-decoration:none;
+	color:rgb(78,78,78);
+}
+.item1_R9s,
+.item1_R9s_Plus,
+.item1_A57,
+.item1_A59s,
+.item2_market,
+.item2_compass,
+.item2_online_market,
+.item3_website,
+.item3_prize,
+.item3_cloud,
+.item4_join,
+.item4_OPPO,
+.item4_purchase,
+.item4_review{
+	margin-right:40px;
+	margin-top:7px;
+	font-size:12px;
+	
+	text-decoration:none;
+	color:rgb(78,78,78);
+}
+#ui-copyright{
+	width:100%;
+	height:20px;
+	background-color:pink;
+}
+.copyright{
+	margin-left:30%;
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+	color:gray;
+	float:left;
+}
+.weibo{
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+	color:gray;
+	float:left;
+	margin-left:50px;
+}
+
