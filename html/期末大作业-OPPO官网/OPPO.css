@@ -7,21 +7,29 @@
  */
 #ui-head{
 	width:100%;
-	height:25px;
-	line-height:25px;
+	height:30px;
+	line-height:30px;
 	background-color:rgb(0,155,114);
 	text-align:center;
 }
-.head{
+
+.head,
+.head1{
+
 	color:white;
 	float:right;
 	width:56px;
-	height:25px;
-	line-height:25px;
+	height:30px;
+	line-height:30px;
 	border-left:1px solid white;
-	font-size:12px;
+	font-size:14px;
 	background-color:rgb(0,155,114);
 	
+}
+.head1{
+	margin-right:20px;
+	width:56px;
+	height:30px;
 }
 .head_login,
 .head_Global,
@@ -30,24 +38,30 @@
 	background-color:rgb(0,155,114);
 	text-decoration:none;
 }
-.head_login :hover,
-.head_Global :hover,
-.head_logout :hover{
-	color:black;
+
+.head_login:hover,
+.head_Global:hover,
+.head_logout:hover{
+	
+	background-color:rgb(0,100,114);
+	
 }
 #ui-theme{
 	width:100%;
-	height:45px;
+	height:78px;
 
 }
-.logo{
+.logo img{
+	margin-top:20px;
+	vertical-align:middle;
 	float:left;
-	margin-left:30%;
+	margin-left:10%;
+
 }
 .items{
-	margin-right:20%;
-	height:45px;
-	line-height:45px;
+	margin-right:10%;
+	height:78px;
+	line-height:78px;
 	float:right;
 	
 }
@@ -59,10 +73,21 @@
 .ColorOS,
 .community_page
 {
-	margin-right:10px;
+	margin-right:20px;
 	color:gray;
-	font-size:12px;
+	font-size:18px;
 	text-decoration:none;
+}
+.home_page:hover,
+.product_page:hover,
+.market_page:hover,
+.exp_center_page:hover,
+.server_page:hover,
+.ColorOS:hover,
+.community_page:hover{
+	text-decoration:underline;
+	text-decoration-color:red;
+
 }
 #ui-body{
 	width:100%;
@@ -98,31 +123,38 @@
 }
 #ui-server{
 	margin-top:40px;
+	padding-top:50px;
 	width:100%;
 	height:170px;
+	background-color:rgb(246,246,246);
 	
 	
 }
 .server_title{
-	margin-left:30%;
+	/*margin-left:30%;*/
 	float:left;
+	width:100%;
+}
+.server_table{
+	/*margin-right:30%;*/
+	float:left;
+	width:100%;
 }
 .server_box{
-	margin-right:30%;
-	float:left;
+
 }
 .server_online_service{
-	width:100px;
-	height:20px;
+	width:150px;
+	height:40px;
 	text-align:center;
 	border:2px solid rgb(78,78,78);
-	border-radius:15px;
+	border-radius:20px;
 }
 .online_service{
-	height:20px;
-	line-height:20px;
+	height:40px;
+	line-height:40px;
 	color:gray;
-	font-size:8px;
+	font-size:20px;
 	text-decoration:none;
 }
 /*
@@ -132,24 +164,36 @@
 	flex-direction:column;
 }*/
 .server_blank{
-	width:50px;
+	width:20px;
 }
 
 .server_td{
-	font-size:8px;
+	font-size:20px;
+	
 	text-align:right;
 	float:right;
+	margin-right:20px;
+}
+
+.server_type{
+	margin-left:70px;
 }
 .server_type,
 .server_buy,
 .server_server,
 .server_about{
 	margin-right:40px;
-	margin-bottom:3px;
-	font-size:12px;
+	
+	font-size:15px;
 	font-weight:bolder;
 	text-decoration:none;
 	color:rgb(78,78,78);
+}
+.item1_R9s,
+.item1_R9s_Plus,
+.item1_A57,
+.item1_A59s{
+	margin-left:70px;
 }
 .item1_R9s,
 .item1_R9s_Plus,
@@ -166,7 +210,7 @@
 .item4_purchase,
 .item4_review{
 	margin-right:40px;
-	margin-top:7px;
+	margin-top:10px;
 	font-size:12px;
 	
 	text-decoration:none;
@@ -175,11 +219,13 @@
 #ui-copyright{
 	width:100%;
 	height:20px;
-	background-color:pink;
+	background-color:rgb(246,246,246);
+	
 }
 .copyright{
 	margin-left:30%;
 	font-size:12px;
+	font-weight:bold;
 	height:20px;
 	line-height:20px;
 	color:gray;
@@ -194,3 +240,11 @@
 	margin-left:50px;
 }
 
+#ui-body-img{
+	width:100%;
+	height:490px;
+}
+.body_img{
+	width:100%;
+	height:100%;
+}
