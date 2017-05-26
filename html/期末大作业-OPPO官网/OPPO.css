@@ -11,11 +11,12 @@
 	line-height:30px;
 	background-color:rgb(0,155,114);
 	text-align:center;
+	
 }
 
 .head,
 .head1{
-
+	
 	color:white;
 	float:right;
 	width:56px;
@@ -24,12 +25,14 @@
 	border-left:1px solid white;
 	font-size:14px;
 	background-color:rgb(0,155,114);
-	
+	padding-left:15px;
+	padding-right:15px;
 }
 .head1{
-	margin-right:20px;
+	margin-right:70px;
 	width:56px;
 	height:30px;
+
 }
 .head_login,
 .head_Global,
@@ -55,11 +58,11 @@
 	margin-top:20px;
 	vertical-align:middle;
 	float:left;
-	margin-left:10%;
+	margin-left:70px;
 
 }
 .items{
-	margin-right:10%;
+	margin-right:70px;
 	height:78px;
 	line-height:78px;
 	float:right;
@@ -123,17 +126,18 @@
 }
 #ui-server{
 	margin-top:40px;
+
 	padding-top:50px;
 	width:100%;
 	height:170px;
 	background-color:rgb(246,246,246);
-	
-	
 }
 .server_title{
 	/*margin-left:30%;*/
-	float:left;
+	
+	
 	width:100%;
+	
 }
 .server_table{
 	/*margin-right:30%;*/
@@ -144,16 +148,18 @@
 
 }
 .server_online_service{
-	width:150px;
-	height:40px;
-	text-align:center;
-	border:2px solid rgb(78,78,78);
-	border-radius:20px;
-}
-.online_service{
+	width:180px;
 	height:40px;
 	line-height:40px;
-	color:gray;
+	text-align:center;
+	border:2px solid rgb(54,54,54);
+	border-radius:25px;
+}
+.online_service{
+
+	height:40px;
+	line-height:40px;
+	color:rgb(54,54,54);
 	font-size:20px;
 	text-decoration:none;
 }
@@ -217,27 +223,34 @@
 	color:rgb(78,78,78);
 }
 #ui-copyright{
+
 	width:100%;
-	height:20px;
+	height:40px;
 	background-color:rgb(246,246,246);
 	
 }
 .copyright{
-	margin-left:30%;
-	font-size:12px;
-	font-weight:bold;
+	width:50% - 70px;
+	font-size:14px;
+	margin-left:70px;
 	height:20px;
-	line-height:20px;
+	
 	color:gray;
 	float:left;
+	background-color:rgb(246,246,246);
+	text-align:left;
 }
 .weibo{
-	font-size:12px;
+	width:50% - 70px;
+	text-align:right;
+	margin-right:70px;
+	font-size:14px;
 	height:20px;
-	line-height:20px;
+	
 	color:gray;
-	float:left;
-	margin-left:50px;
+	
+	
+	background-color:rgb(246,246,246);
 }
 
 #ui-body-img{
@@ -247,4 +260,25 @@
 .body_img{
 	width:100%;
 	height:100%;
+}
+.server_online_service .fa{
+	color:rgb(54,54,54);
+}
+.cut_line2{
+	width:100%;
+	height:60px;
+	
+	
+	background-color:rgb(246,246,246);
+}
+.cut_line1{
+	
+	width:100%;
+	height:30px;
+	
+	border-top:1px solid gray;
+	background-color:rgb(246,246,246);
+}
+.weibo .fa{
+	margin-right:5px;
 }
