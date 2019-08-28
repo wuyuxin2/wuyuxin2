@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Wu Yuxin</title>
+    <link rel="stylesheet" href="animate.css">
     <style>
       h1 {
         text-align: center;
@@ -64,7 +65,7 @@
       function show(){
           var date = document.getElementById("date");
           var time = new Date().format("yyyy-MM-dd hh:mm:ss")
-          date.innerHTML = time;
+          date.innerHTML = '现在是' + time;
       }
       window.onload = function() {
         setInterval(show(), 1000);
@@ -72,7 +73,7 @@
     </script>
   </head>
   <body>
-    <h1>
+    <h1 class="animated infinite heartBeat">
       <span class="red">我</span>
       <span class="orange">喜</span>
       <span class="yellow">欢</span>
