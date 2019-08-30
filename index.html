@@ -5,34 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Wu Yuxin</title>
-    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="animate.css" />
     <style>
-      body{
+      body {
         background: url(images/wuzhen.jpeg) no-repeat top center;
-        font-family: "STKaiti","Microsoft YaHei";
+        font-family: "STKaiti", "Microsoft YaHei";
       }
       h1 {
         margin-top: 200px;
         font-size: 50px;
         letter-spacing: 6px;
-        font-family: "STKaiti","Microsoft YaHei";
+        font-family: "STKaiti", "Microsoft YaHei";
         color: #fff;
         text-align: center;
-      }
-      .red {
-        color: red;
-      }
-      .orange {
-        color: orange;
-      }
-      .yellow {
-        color: yellow;
-      }
-      .green {
-        color: green;
-      }
-      .blue {
-        color: blue;
       }
       p {
         text-align: right;
@@ -40,6 +25,14 @@
         margin-right: 40px;
         margin-top: 10px;
         margin-bottom: 10px;
+      }
+      #help {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: url(images/help.png) no-repeat;
       }
     </style>
     <script type="text/javascript">
@@ -71,24 +64,24 @@
         }
         return fmt;
       };
-      function show(){
-          var date = document.getElementById("date");
-          var time = new Date().format("yyyy-MM-dd hh:mm:ss")
-          date.innerHTML = '现在是 ' + time;
+      function show() {
+        var date = document.getElementById("date");
+        var time = new Date().format("yyyy-MM-dd hh:mm:ss");
+        date.innerHTML = "现在是 " + time;
       }
       window.onload = function() {
         setInterval(show, 1000);
+
+        var help = document.getElementById("help");
+        help.onclick = function(){
+          alert("这也敢点进来？？？");
+          alert("喜欢么得理由");
+        }
       };
     </script>
   </head>
   <body>
-    <!-- <h1 class="animated infinite heartBeat">
-      <span class="red">我</span>
-      <span class="orange">喜</span>
-      <span class="yellow">欢</span>
-      <span class="green">你</span>
-      <span class="blue">啊</span>
-    </h1> -->
+    <div id="help"></div>
     <h1>我喜欢你啊</h1>
     <p>吴雨欣</p>
     <p id="date"></p>
